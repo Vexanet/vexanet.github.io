@@ -18,7 +18,7 @@ header {
 }
 
 header .logo img {
-    max-height: 50px;
+    max-height: 40px;
     transition: transform 0.3s;
 }
 
@@ -35,7 +35,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #007B5E;
+    color: #004d40;
 }
 
 @media (max-width: 768px) {
@@ -51,7 +51,7 @@ header nav a:hover {
 /* Hero Section Styles */
 .hero {
     position: relative;
-    background: url('https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    background: url('https://media.istockphoto.com/id/1313115119/photo/abstract-blurred-office-interior-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=7wwHYNuWF6u9tWpKNK7Gx6RnTPFc4h6SemA_MI6lsUc=') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 100px 20px;
@@ -64,7 +64,7 @@ header nav a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .hero > * {
@@ -75,6 +75,7 @@ header nav a:hover {
 .hero h1 {
     font-size: 48px;
     margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
@@ -86,11 +87,16 @@ header nav a:hover {
     display: inline-block;
     margin-top: 20px;
     padding: 15px 30px;
-    background: #007B5E;
+    background: #004d40;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background: #00695c;
 }
 
 /* Sections Styles */
@@ -108,7 +114,7 @@ section h2 {
     text-align: center;
     margin-bottom: 40px;
     font-size: 36px;
-    color: #007B5E;
+    color: #004d40;
 }
 
 /* Services Section */
@@ -126,11 +132,14 @@ section h2 {
     margin: 15px;
     width: 30%;
     text-align: center;
-    transition: transform 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-top: 4px solid transparent;
 }
 
 .service-card:hover {
     transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+    border-top-color: #004d40;
 }
 
 @media (max-width: 768px) {
@@ -146,7 +155,7 @@ section h2 {
 
 .service-card .icon {
     font-size: 48px;
-    color: #007B5E;
+    color: #004d40;
     margin-bottom: 20px;
 }
 
@@ -196,11 +205,19 @@ section h2 {
     margin: 15px;
     width: 40%;
     text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-top: 4px solid transparent;
+}
+
+.contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+    border-top-color: #004d40;
 }
 
 .contact-card .icon {
     font-size: 48px;
-    color: #007B5E;
+    color: #004d40;
     margin-bottom: 20px;
 }
 
@@ -221,5 +238,5 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-    color: #007B5E;
+    color: #004d40;
 }
