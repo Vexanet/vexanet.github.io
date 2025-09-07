@@ -49,7 +49,7 @@ header nav a:hover {
 /* Hero Section Styles */
 .hero {
     position: relative;
-    background: url('https://images.unsplash.com/photo-1630283017751-76e1fbb14d91?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW9kZXJuJTIwb2ZmaWNlJTIwd29ya3NwYWNlfGVufDB8fDB8fHww') no-repeat center center/cover;
+    background: url('https://images.unsplash.com/photo-1510519138101-570d1dca3d66?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGFyayUyMG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 100px 20px;
